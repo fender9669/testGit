@@ -3,12 +3,13 @@
 static int sum = 0;
 
 void incrementSum(){
-    sum += 1;
+    sum += 2;
 }
 
 int main(){
 
     printf("Hello World!");
+    printf("Second hello world");
 
    int i = 0;
    while(i < 10){
